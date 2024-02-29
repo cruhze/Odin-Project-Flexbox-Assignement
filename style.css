@@ -15,9 +15,11 @@ ul{
 
 #header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1.5% 12% 5% 12%;
+    gap:46%;
+    padding-top: 7.5px;
+    /* padding: 1.5% 14.3% 5% 14.5%; */
 }
 
 .signUp{
@@ -43,8 +45,9 @@ p{
     font-family: "Roboto";
 }
 
-.headerLogo {
+.headerLogo, .action-text{
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .right-nav ul {
@@ -66,10 +69,6 @@ a{
     color: #f9faf8a4;
 }
 
-.headerLogo{
-    color: #f9faf8;
-    font-weight: bold;
-}
 .right-nav{
 list-style: none;
 }
@@ -90,7 +89,7 @@ list-style: none;
 
 img{
     width: 470px;
-    height: 250px;
+    height: 260px;
     
 }
 
@@ -123,7 +122,7 @@ img{
 
 #image-section{
     padding-top: 3%;
-    padding-bottom: 20%;
+    padding-bottom: 17%;
 }
 .image-text{
     display: flex;
@@ -159,4 +158,97 @@ img{
     gap: 43px;
     font-size: 12px;
     color: #252525a4;
+}
+
+#grey-section{
+    background-color: #e5e7eb;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.grey-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0;
+    margin: 0;
+}
+
+.grey-subtext{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 77%;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+
+.action-section{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    width: 100%;
+    
+}
+
+.action-box{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #3882f6;
+    padding: 40px 180px 40px 180px;
+    border-radius: 10px;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.action-text{
+    display: flex;
+    margin: 0;
+    font-size: 24px;
+    
+}
+.action-subtext{
+    display: flex;
+margin: 0;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.action-signUp{
+    color: #f9faf8;
+    padding: 5px 40px 5px 40px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    border-color: #f9faf8;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+.action-left{
+    flex-direction: column;
+    
+}
+
+.copyright{
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-text{
+    color: #f9faf8ba;
+    display: flex;
+    
 }
